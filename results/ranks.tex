@@ -1,20 +1,22 @@
-\begin{tabular}{lrrrrrrr}
+\begin{tabular}{lrrrr}
 \toprule
-{} &  MAPE &  MAE &  RMSE &  R2 &  RMSE\_P &  MAE\_P &  Accuracy \\
+{} &  MAPE &  MAE &  RMSE &  R2 \\
 \midrule
-Random Forest Individual Aggregated &     6 &    6 &     5 &   5 &       6 &      2 &         8 \\
-Random Forest Directly Combined     &     8 &    9 &    10 &  10 &       9 &      4 &         4 \\
-RF CEEMDAN Individual Aggregated    &    14 &   13 &    13 &  13 &      12 &      5 &         2 \\
-RF CEEMDAN Directly Combined        &    13 &   14 &    14 &  14 &      14 &     11 &        11 \\
-XGB Individual Aggregated           &     4 &    5 &     7 &   7 &       7 &      8 &        13 \\
-XGB Directly Combined               &     5 &    8 &     9 &   9 &       8 &     12 &        10 \\
-XGB CEEMDAN Individual Aggregated   &    11 &   11 &    11 &  11 &      11 &     13 &         6 \\
-XGB CEEMDAN Directly Combined       &    12 &   12 &    12 &  12 &      13 &      6 &         2 \\
-LSTM Individual Aggregated          &    10 &   10 &     8 &   8 &      10 &     14 &        14 \\
-LSTM Directly Combined              &     7 &    4 &     4 &   4 &       5 &      3 &         6 \\
-LSTM CEEMDAN Individual Aggregated  &     3 &    3 &     3 &   3 &       3 &      7 &         9 \\
-LSTM CEEMDAN Directly Combined      &     9 &    7 &     6 &   6 &       4 &     10 &        12 \\
-Transformer Individual Aggregated   &     1 &    1 &     1 &   1 &       2 &      1 &         1 \\
-Transformer Directly Combined       &     2 &    2 &     2 &   2 &       1 &      9 &         5 \\
+Random Forest: Separate         &     8 &    7 &     7 &   7 \\
+Random Forest: Combined         &     9 &   11 &    12 &  12 \\
+Random Forest CEEMDAN: Separate &    16 &   15 &    15 &  15 \\
+Random Forest CEEMDAN: Combined &    15 &   16 &    16 &  16 \\
+XGB: Separate                   &     6 &    6 &     9 &   9 \\
+XGB: Combined                   &     7 &   10 &    10 &  10 \\
+XGB CEEMDAN: Separate           &    13 &   13 &    13 &  13 \\
+XGB CEEMDAN: Combined           &    14 &   14 &    14 &  14 \\
+LSTM: Separate                  &    12 &   12 &    11 &  11 \\
+LSTM: Combined                  &    10 &    8 &     6 &   6 \\
+LSTM CEEMDAN: Separate          &     5 &    5 &     5 &   5 \\
+LSTM CEEMDAN: Combined          &    11 &    9 &     8 &   8 \\
+Transformer: Separate           &     2 &    2 &     2 &   2 \\
+Transformer: Combined           &     1 &    1 &     1 &   1 \\
+Transformer CEEMDAN: Separate   &     4 &    4 &     4 &   4 \\
+Transformer CEEMDAN: Combined   &     3 &    3 &     3 &   3 \\
 \bottomrule
 \end{tabular}

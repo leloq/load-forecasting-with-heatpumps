@@ -5,10 +5,10 @@ We publish most forecasting methods, our benchmarking pipeline, all feature-engi
 
 ### How to benchmark your own models against the results
 
-1. **Data Preparation**: Use the dataframes `Feature Selection aggregated energy community load.pkl`, `Feature Selection aggregated heat pump load.pkl`, and `Feature Selection aggregated household load.pkl` to predict whole energy community (`Comb`), heat pump (`HP`), and household (`HH`) loads.
+1. **Data Preparation**: Use the dataframes `Feature Selection aggregated energy community load.pkl`, `Feature Selection aggregated heat pump load.pkl`, and `Feature Selection aggregated household load.pkl` to predict whole energy community (`Comb`), heat pump (`HP`), and household (`HH`) loads. In the folder data/traintest, a train/test representation for tabular methods, like XGBoost, can be found.
 
 2. **Model Training and Prediction**:
-    - Train with the data from the 365 days before the first of every month in 2021.
+    - Train with the data from the 365 days before the first of every month in 2020.
     - Predict the day-ahead load based on data from the two previous days.
     - Re-train before every new month.
 

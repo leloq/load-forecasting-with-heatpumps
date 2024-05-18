@@ -19,3 +19,11 @@ We publish most forecasting methods, our benchmarking pipeline, all feature-engi
 4. **Evaluation Updates**:
     - Edit the `02 Evaluate` notebook; append below the `Individual Aggregated vs. directly combined` section the `methods` list and append the `{modelname}`.
     - You will find the benchmarked results in the following.
+  
+**Sources**: 
+
+The underlying dataset is based on:
+
+Schlemminger, M., Ohrdes, T., Schneider, E., & Knoop, M. (2022). Dataset on electrical single-family house and heat pump load profiles in Germany. Scientific data, 9(1), 56.
+
+

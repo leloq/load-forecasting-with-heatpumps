@@ -26,4 +26,6 @@ The underlying dataset is based on:
 
 Schlemminger, M., Ohrdes, T., Schneider, E., & Knoop, M. (2022). Dataset on electrical single-family house and heat pump load profiles in Germany. Scientific data, 9(1), 56.
 
+This open-source repository is based on the publication:
 
+Semmelmann, L., Hertel, M., Kircher, K. J., Mikut, R., Hagenmeyer, V., & Weinhardt, C. (2024). The impact of heat pumps on day-ahead energy community load forecasting. Applied Energy, 368, 123364. 
